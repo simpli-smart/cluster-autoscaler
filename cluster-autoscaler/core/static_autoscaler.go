@@ -67,7 +67,7 @@ const (
 	// How old the oldest unschedulable pod with GPU should be before starting scale up.
 	// The idea is that nodes with GPU are very expensive and we're ready to sacrifice
 	// a bit more latency to wait for more pods and make a more informed scale-up decision.
-	unschedulablePodWithGpuTimeBuffer = 30 * time.Second
+	unschedulablePodWithGpuTimeBuffer = 10 * time.Second
 
 	// NodeUpcomingAnnotation is an annotation CA adds to nodes which are upcoming.
 	NodeUpcomingAnnotation = "cluster-autoscaler.k8s.io/upcoming-node"
