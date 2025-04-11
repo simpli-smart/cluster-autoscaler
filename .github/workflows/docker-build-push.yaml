@@ -47,7 +47,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934 # v5.0.0
         with:
-          images: ${{ vars.DOCKER_REGISTRY }}/${{ vars.DOCKER_ROOT_FOLDER }}/${{ github.event.repository.name }}
+          images: docker.io/simplismart/${{ github.event.repository.name }}
           tags: |
             type=raw,value=latest,enable={{is_default_branch}}
             type=raw,value={{sha}},enable={{is_default_branch}}
