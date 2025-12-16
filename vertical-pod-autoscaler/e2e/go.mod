@@ -16,7 +16,7 @@ require (
 	k8s.io/client-go v0.32.0
 	k8s.io/component-base v0.32.0
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/kubernetes v1.32.0
+	k8s.io/kubernetes v1.32.10
 	k8s.io/pod-security-admission v0.32.0
 	k8s.io/utils v0.0.0-20241210054802-24370beab758
 )
@@ -25,7 +25,7 @@ require (
 	cel.dev/expr v0.18.0 // indirect
 	github.com/JeffAshton/win_pdh v0.0.0-20161109143554-76bb4ee9f0ab // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
-	github.com/Microsoft/hnslib v0.0.8 // indirect
+	github.com/Microsoft/hnslib v0.1.1 // indirect
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
 	github.com/armon/circbuf v0.0.0-20190214190532-5111143e8da2 // indirect
